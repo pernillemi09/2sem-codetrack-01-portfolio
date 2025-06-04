@@ -1,0 +1,52 @@
+/* ===== CONTACT PAGE STYLES ===== */
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+    margin-top: var(--space-lg);
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        gap: var(--space-xl);
+        margin-top: var(--space-xl);
+    }
+}
+
+.contact-info,
+.contact-form {
+    width: 100%;
+    flex: 1;
+
+    @media (min-width: 768px) {
+        flex: 1;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: var(--space-md);
+        text-align: left;
+        padding-bottom: 0;
+
+        &:after {
+            display: none;
+        }
+    }
+}
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-lg) 0;
+
+    li {
+        margin-bottom: var(--space-sm);
+        display: flex;
+        flex-direction: column;
+    }
+
+    strong {
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+        color: var(--color-heading);
+    }
+}

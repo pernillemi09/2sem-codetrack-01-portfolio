@@ -1,0 +1,108 @@
+/* ===== COMPONENTS ===== */
+/* Buttons */
+.button, .btn, .btn-view-project {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    text-align: center;
+}
+
+.button:hover, .btn:hover, .btn-view-project:hover {
+    background-color: var(--color-primary-dark);
+    text-decoration: none;
+    color: white;
+}
+
+/* Alerts */
+.alerts:has(*) {
+    padding: var(--space-sm);
+}
+
+.alert {
+    padding: var(--space-sm);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--space-md);
+}
+
+.alert-success {
+    background: color-mix(in srgb, var(--color-success) 15%, white);
+    border: 1px solid var(--color-success);
+}
+
+.alert-danger {
+    background: color-mix(in srgb, var(--color-danger) 15%, white);
+    border: 1px solid var(--color-danger);
+}
+
+/* Forms */
+form {
+    margin-bottom: var(--space-lg);
+}
+
+/* Login Form */
+.login-form-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: var(--space-md);
+    background-color: var(--color-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: var(--space-md);
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: var(--space-xs);
+    font-weight: 500;
+    color: var(--color-heading);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    transition: var(--transition-fast);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.field-error {
+    color: #e74c3c;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+input.has-error,
+textarea.has-error {
+    border-color: #e74c3c;
+    background-color: rgba(231, 76, 60, 0.05);
+}
+
+input.has-error:focus,
+textarea.has-error:focus {
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.25);
+}

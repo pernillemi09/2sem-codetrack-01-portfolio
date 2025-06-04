@@ -1,0 +1,13 @@
+{
+  "name": "madh-zealand/portfolio",
+  "description": "Basic portfolio website",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
