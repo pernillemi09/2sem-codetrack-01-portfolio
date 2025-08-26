@@ -65,6 +65,14 @@ class ProjectController extends Controller
                 image: 'images/projects/webgame.jpg',
                 code: 'https://github.com/madh-zealand/tba',
                 link: '#webgame',
+            ),
+            new ProjectDto(
+                title: 'Browser Game',
+                description: 'A fun and engaging browser-based game built with vanilla JavaScript. Implements game mechanics using the requestAnimationFrame API, features smooth animations, collision detection, and a scoring system. Demonstrates strong understanding of DOM manipulation and event handling.',
+                technologies: 'JavaScript, HTML Canvas, CSS Animations',
+                image: 'images/projects/webgame.jpg',
+                code: 'https://github.com/madh-zealand/tba',
+                link: '#webgame',
             )
         ];
     }

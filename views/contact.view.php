@@ -36,8 +36,8 @@ $this->extend('layout');
                         <strong>
                             Email:
                         </strong>
-                        <a href="mailto:contact@example.com">
-                            contact@example.com
+                        <a href="mailto:pen002@edu.zealand.dk">
+                            pen002@edu.zealand.dk
                         </a>
                     </li>
                     <li>
@@ -52,7 +52,7 @@ $this->extend('layout');
                             Location:
                         </strong>
                         <span>
-                            City, Country
+                            Koege, Denmark
                         </span>
                     </li>
                 </ul>

@@ -14,7 +14,7 @@ $this->extend('layout');
             About Me
         </h1>
         <p class="page-intro">
-            Get to know more about my journey, skills, and passion for web development. I'm dedicated to creating elegant solutions to complex problems.
+            Get to know more about my journey, skills, and passion for multimediedesigner. I'm dedicated to creating elegant solutions to complex problems.
         </p>
     </div>
 </section>
@@ -25,7 +25,7 @@ $this->extend('layout');
             <div class="about-text">
                 <h2 class="section-heading">Bio</h2>
                 <p>
-                    Hi, I'm a passionate web developer with a focus on building clean,
+                    Hi, I'm a passionate multimediedesigner with a focus on building clean,
                     efficient, and user-friendly applications. I specialize in PHP
                     development and modern web technologies, with a particular interest
                     in creating robust back-end solutions.
@@ -45,7 +45,7 @@ $this->extend('layout');
             </div>
 
             <div class="about-image">
-                <img src="images/profile-portrait.jpg" alt="Headshot of Abigail looking suspicious" class="portrait-image">
+                <img src="images/105494933_1597334893778608_8188881637984347372_n.jpg" alt="Headshot of Abigail looking suspicious" class="portrait-image">
             </div>
         </div>
     </div>
@@ -60,9 +60,7 @@ $this->extend('layout');
             <span class="skill-tag">Photoshop</span>
             <span class="skill-tag">Illustrator</span>
             <span class="skill-tag">InDesign</span>
-            <span class="skill-tag">Webhosting</span>
             <span class="skill-tag">Graphic Design</span>
-            <span class="skill-tag">Project Planning</span>
         </div>
     </div>
 </section>

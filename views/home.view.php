@@ -10,7 +10,7 @@ $this->extend('layout');
 
 <section class="hero section-padding">
     <div class="container">
-        <h1>Hi, I'm Abigail<span class="accent">Multimedia Designer</span></h1>
+        <h1>Hi, I'm Pernille<span class="accent">Multimediedesigner</span></h1>
         <p class="tagline">I create modern and user-friendly web solutions with a focus on quality and performance.</p>
         <a href="/contact" class="button">Contact Me</a>
     </div>
@@ -21,14 +21,14 @@ $this->extend('layout');
         <div class="intro-content">
             <div class="intro-text">
                 <h2 class="section-heading">About Me</h2>
-                <p>I'm a passionate web developer with a particular interest in user-friendly design and clean code.
+                <p>I'm a passionate multimediedesigner with a particular interest in user-friendly design.
                    Through my projects, I strive to create solutions that not only work well
                    but also make a real difference for users.</p>
                 <p>With a keen eye for detail and a commitment to staying current with web technologies,
                    I bring ideas to life through elegant and efficient code.</p>
             </div>
             <div class="intro-image">
-                <img src="images/profile-landscape.jpg" alt="Headshot of Abigail looking happy" class="profile-image">
+                <img src="images/105494933_1597334893778608_8188881637984347372_n.jpg" alt="Headshot of Pernille looking happy" class="profile-image">
             </div>
         </div>
     </div>
